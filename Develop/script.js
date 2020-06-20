@@ -63,8 +63,16 @@ function generatePassword() {
     console.log(possible);
   }
 
+
+  // for loops to create a random password after the user clicks generates
+
+  for (var i = 0; i < passwordLength; i++) {
+    var randomChar = possible[Math.floor(Math.random() * possible.length)];
+    password = password + randomChar
+    console.log(password);
+  }
+  return password; // return is after the execution of the function is successfully completed. 
+
+
 }
-
-
-
 
