@@ -39,8 +39,31 @@ function generatePassword() {
   var useSpecChar = confirm("Do you want to include special characters?");
 
 
-}
 
+  // if lowercase = true 
+  if (useLowerCase === true) {
+    // than we can add into the empty array 
+    // const array3 = array1.concat(array2);    <-- explanation of what concatenating does
+    possible = possible.concat(lowerCase);
+    // console.log(possible);
+  }
+  if (useUpperCase === true) {
+    // than we can add into the empty array 
+    possible = possible.concat(upperCase);
+    // console.log(possible);
+  }
+  if (useNumbers === true) {
+    // than we can add into the empty array 
+    possible = possible.concat(numbers);
+    // console.log(possible);
+  }
+  if (useSpecChar === true) {
+    // than we can add into the empty array 
+    possible = possible.concat(specChar);
+    console.log(possible);
+  }
+
+}
 
 
 
