@@ -23,7 +23,7 @@ which will create the new generated password in the card-body.
 
 ## Deployed links
 
-* https://mrjohnsonpham.github.io/03-password-generator/.
+* https://mrjohnsonpham.github.io/03-password-generator/
 
 * https://github.com/mrjohnsonpham/03-password-generator
 
